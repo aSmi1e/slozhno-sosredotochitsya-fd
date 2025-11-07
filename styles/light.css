@@ -1,8 +1,3 @@
-/*
-  Стили для светлой темы
-*/
-
-/* Системная светлая тема */
 @media (prefers-color-scheme: light) {
     :root {
         --bg-image: url('../images/cover-image-light.png');
@@ -21,7 +16,6 @@
     }
 }
 
-/* Принудительная светлая тема */
 :root.theme-light {
     --bg-image: url('../images/cover-image-light.png');
     --bg-color: #FFF1F7;
