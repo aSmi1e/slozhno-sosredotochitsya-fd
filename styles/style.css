@@ -119,13 +119,17 @@
     box-shadow: 0 0 4px 2px var(--contrast-color);
 }
 
-.title-big {
+.title-big__header {
     color: var(--title-color);
     font-size: var(--title-size);
     font-weight: var(--text-bold);
-    text-shadow: 2px 2px 0 var(--accent-color);
+    text-shadow: 4px 4px 0 var(--accent-color);
     line-height: 0.83;
     align-self: center;
+}
+
+.title-big__footer {
+    text-shadow: 2px 2px 0 var(--accent-color);
 }
 
 .title-decor {
@@ -300,6 +304,7 @@
 
     .concentration-decrease__causes .card-wrapper {
         flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .concentration-decrease__causes .card {
